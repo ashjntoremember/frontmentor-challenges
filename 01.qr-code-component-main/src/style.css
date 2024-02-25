@@ -9,17 +9,20 @@ font-family: "Outfit", sans-serif;
 
 }
 
-/* - Font size (paragraph): 15px */
-
 
 body{
+    background-color: var(--Light-gray);
+}
+
+main{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--Light-gray);
     max-width: 144.0rem;  
     height: 100vh;
+    margin: 0 auto;
 }
 
 #wrapper {
