@@ -12,34 +12,30 @@ font-family: "Outfit", sans-serif;
 
 body{
     background-color: var(--Light-gray);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
 }
 
-main{
-
+main{   
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: var(--Light-gray);
+    justify-content: center;
+    border: 1px black solid;
     max-width: 144.0rem;  
-    height: 100vh;
-    margin: 0 auto;
+    border: red 2px solid; 
+
 }
 
 #wrapper {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-size: 1.5rem;
     width: 20.0rem;
     height: 30.0rem;
-    overflow: hidden;
     border-radius: 1.0rem;
     background-color: var(--White);
     padding: 1.0rem;
-
 }
 
 #wrapper img{
